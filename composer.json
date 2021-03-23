@@ -1,0 +1,31 @@
+{
+    "name":"mifikoz/smirnov",
+	"description": "core for my trpo project",
+	"type" : "library",
+	"authors": [
+        {
+            "name": "mifikoz",
+            "email": "makozer@yandex.ru"
+        }
+    ],
+    "version":"1.0.0",
+
+    "repositories":[
+      {
+        "type":"git",
+        "url":"https://github.com/rok9ru/trpo-core.git"
+      }
+    ],
+    "require":{
+        "php":"^7.3.0",
+		"rok9ru/trpo-core" : "^2.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "smirnov\\":"src"
+        },
+		"classmap": [
+		"src"
+		]
+    }
+}
