@@ -8,8 +8,6 @@
             "email": "makozer@yandex.ru"
         }
     ],
-    "version":"1.0.0",
-
     "repositories":[
       {
         "type":"git",
