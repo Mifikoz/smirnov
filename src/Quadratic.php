@@ -8,7 +8,7 @@ use core\Equationinterface;
 class Quadratic extends Linear implements EquationInterface
 {
 
-    public function solve($a,$b,$c) {
+    public function solve($a,$b,$c):array {
         if($a==0){
             return $this->linearEquation($b,$c);
         }

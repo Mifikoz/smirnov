@@ -7,7 +7,7 @@ use core;
 class SmirnovLog extends core\LogAbstract implements core\LogInterface
 {
 
-    public static function log($str) {
+    public static function log($str):void {
         SmirnovLog::Instance()->_log($str);
     }
 
@@ -17,7 +17,7 @@ class SmirnovLog extends core\LogAbstract implements core\LogInterface
         }
     }
 
-    public static function write() {
+    public static function write():void {
         SmirnovLog::Instance()->_write();
     }
 
